@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Najwa Jauhari</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+   <script>
+    (function () {
+      emailjs.init("uNVl9F1fTfteswG8j");
+    })();
+  </script>
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">My<span> Website</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Services</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#portfolio" class="menu-btn">Portfolio</a></li>
+          <li><a href="#projects" class="menu-btn">Projects</a></li>
+          <li><a href="#testimonials" class="menu-btn">Testimonials</a></li>
+          <li><a href="#gallery" class="menu-btn">Gallery</a></li>
+          <li><a href="#resume" class="menu-btn">Resume</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <div class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">Najwa Jauhari</div>
+        <div class="text-3">I'm a <span class="typing"></span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="images/me.png" alt="">
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Najwa Jauhari and I'm a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            As a dedicated student, I've honed my skills in various aspects of information technology and data analysis. My academic journey has equipped me with the ability to comprehend and resolve intricate challenges using analytical methodologies. Driven by a profound interest in technological advancements and a commitment to lifelong learning, I aim to contribute significantly to the realms of technology and data.
+          </p>
+          <a href="https://drive.google.com/file/d/1GycAu70cznO-uXduFmPCUSey0oLh5POV/view?usp=sharing">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">My Services</h2>
+      <div class="serv-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+              <i class="fas fa-laptop-code"></i>
+              <div class="text">Web Development</div>
+              <p>
+                  I have extensive experience in web development, specializing in building responsive and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I also have expertise in modern front-end frameworks like React and Vue.js. Additionally, I am skilled in backend development using Node.js and Express.js.
+              </p>
+          </div>
+      </div>
+      
+      <div class="card" data-aos="flip-left">
+          <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Data Analysis</div>
+              <p>
+                  As a data enthusiast, I excel in data analysis and interpretation. Proficient in Python and its data manipulation libraries such as Pandas and NumPy, I have experience in cleaning, processing, and visualizing data. My expertise extends to machine learning algorithms and statistical analysis techniques.
+              </p>
+          </div>
+      </div>
+      
+      <div class="card" data-aos="flip-left">
+          <div class="box">
+              <i class="fas fa-mobile-alt"></i>
+              <div class="text">Mobile App Development</div>
+              <p>
+                  I am skilled in developing mobile applications for both Android and iOS platforms. Experienced in using frameworks like React Native and Flutter, I have created cross-platform mobile apps with seamless user experiences. From prototyping to deployment, I ensure high-quality and performance-driven solutions.
+              </p>
+          </div>
+      </div>      
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative skills & experiences.
+          </div>
+          <p class="paragraph-2">
+            Throughout my journey, I have honed my creative skills and gained valuable experiences. From graphic design to web development, I have explored various avenues of creativity. My passion for innovation and attention to detail drive me to continuously seek new challenges and push the boundaries of my abilities. I thrive in environments that encourage creativity and collaboration, where I can leverage my skills to bring ideas to life.
+          </p>        
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images/skill-icons/icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="images/skill-icons/icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
+            <img src="images/skill-icons/icons8-react-native.svg" alt="react" id="react-icon" data-aos="flip-left">
+            <img src="images/skill-icons/icons8-flutter.svg" alt="flutter" id="flutter-icon" data-aos="flip-left">
+          </div>
+          <div class="icons">
+            <img src="images/skill-icons/icons8-html-5.svg" alt="html" id="html-icon" data-aos="flip-left">
+            <img src="images/skill-icons/icons8-nodejs.svg" alt="nodejs" id="nodejs-icon" data-aos="flip-left">
+            <img src="images/skill-icons/icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+            <img src="images/skill-icons/icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio section start -->
+  <section class="portfolio" id="portfolio">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Portfolio</h2>
+      <div class="portfolio-content">
+          <div class="card" data-aos="fade-up">
+              <div class="box">
+                  <img src="images/project-1.jpg" alt="Project 1 Image">
+                  <div class="text">Finance Website</div>
+                  <p>Developed a fully functional e-commerce website with features like product listing, shopping cart, and secure payment gateway integration. The website is responsive and optimized for both desktop and mobile devices.</p>
+              </div>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+              <div class="box">
+                  <img src="images/project-2.png" alt="Project 2 Image">
+                  <div class="text">Portfolio Website</div>
+                  <p>Created a personal portfolio website showcasing my skills, projects, and professional experience. The website includes interactive elements and a clean, modern design to effectively highlight my work.</p>
+              </div>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="400">
+              <div class="box">
+                  <img src="images/project-3.png" alt="Project 3 Image">
+                  <div class="text">Data Visualization Dashboard</div>
+                  <p>Designed and implemented a data visualization dashboard that presents complex data in an intuitive and visually appealing manner. The dashboard includes interactive charts and graphs for better data analysis.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- projects section start -->
+<section class="projects" id="projects">
+  <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Projects</h2>
+      <div class="projects-content">
+          <div class="card" data-aos="fade-up">
+              <div class="box">
+                  <div class="text">Machine Learning Model</div>
+                  <p>Developed a machine learning model to predict housing prices based on various features. The model achieved high accuracy and was deployed as a web application for user interaction.</p>
+              </div>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+              <div class="box">
+                  <div class="text">Chatbot Application</div>
+                  <p>Created a chatbot application using natural language processing techniques. The chatbot can answer frequently asked questions and provide support to users in real-time.</p>
+              </div>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="400">
+              <div class="box">
+                  <div class="text">IoT Home Automation</div>
+                  <p>Implemented an IoT-based home automation system that allows users to control home appliances remotely via a mobile app. The system includes features like scheduling, real-time monitoring, and energy usage analysis.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- testimonials section start -->
+<section class="testimonials" id="testimonials">
+  <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Testimonials</h2>
+      <div class="testimonials-content">
+        <div class="card" data-aos="fade-up">
+          <div class="box">
+              <p>Najwa is an exceptional intern who consistently demonstrates a strong work ethic and a keen eye for detail. Her contributions to our projects have been invaluable.</p>
+              <div class="text">- Dr. Ahmad, UIN Suska Riau</div>
+          </div>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <div class="box">
+              <p>Najwa's dedication and passion for data science are evident in her research work. She is highly skilled and always eager to learn and explore new technologies.</p>
+              <div class="text">- Ibu Siti, Universitas Insan Cita Indonesia</div>
+          </div>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="400">
+          <div class="box">
+              <p>Working with Najwa on web development projects has been a pleasure. Her creativity and technical proficiency are truly impressive, and she always delivers high-quality work.</p>
+              <div class="text">- Bapak Budi, Creative Tech Solutions</div>
+          </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+<!-- gallery section start -->
+<section class="gallery" id="gallery">
+  <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Gallery</h2>
+      <div class="gallery-content">
+          <div class="card" data-aos="fade-up">
+              <div class="box">
+                  <img src="images/gallery1.png" alt="Image 1">
+                  <div class="text">Beautiful sunset at the beach</div>
+              </div>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+              <div class="box">
+                  <img src="images/gallery2.png" alt="Image 2">
+                  <div class="text">Captivating city skyline at night</div>
+              </div>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="400">
+              <div class="box">
+                  <img src="images/gallery3.png" alt="Image 3">
+                  <div class="text">Stunning mountain landscape</div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- resume section start -->
+<section class="resume" id="resume">
+  <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Resume</h2>
+      <div class="resume-content">
+          <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-icon"></div>
+              <div class="timeline-content">
+                  <div class="timeline-year">2019 - Present</div>
+                  <h3 class="title">Intern</h3>
+                  <p class="company">PT. Teknologi Kreatif</p>
+                  <p>Worked on developing and maintaining web applications, collaborated with senior developers, and participated in team meetings to improve project workflows.</p>
+              </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-icon"></div>
+              <div class="timeline-content">
+                  <div class="timeline-year">2020 - Present</div>
+                  <h3 class="title">Assistant Lecturer</h3>
+                  <p class="company">UIN Suska Riau</p>
+                  <p>Assisted in teaching undergraduate courses in computer science, conducted lab sessions, and helped students with their assignments and projects.</p>
+                  </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2021 - 2022</div>
+                        <h3 class="title">Web Developer Intern</h3>
+                        <p class="company">Creative Tech Solutions</p>
+                        <p>Developed user-friendly websites and applications, optimized web performance, and worked closely with designers to implement user interfaces.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022 - Present</div>
+                        <h3 class="title">Data Science Research Assistant</h3>
+                        <p class="company">Universitas Insan Cita Indonesia</p>
+                        <p>Conducted research in data science, analyzed large datasets, and assisted in the publication of research papers in academic journals.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023 - Present</div>
+                        <h3 class="title">Freelance Web Developer</h3>
+                        <p class="company">Self-Employed</p>
+                        <p>Worked on various freelance projects, creating custom websites for clients, ensuring responsive design, and delivering projects on time and within budget.</p>
+                    </div>
+                </div>  
+                </div>
+      </div>
+  </div>
+</section>
+    
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="max-width">
+          <h2 class="title" data-aos="fade-down">Contact Me</h2>
+          <div class="contact-content">
+            <div class="column left" data-aos="flip-left">
+              <div class="text">Let's Get in Touch</div>
+              <p class="paragraph-3">Feel free to reach out to discuss projects, collaborations, or just to say hello. I'm always excited to connect with like-minded individuals and explore new opportunities. Whether you have a question or just want to chat, I'd love to hear from you.</p>
+              <div class="icons">
+                <div class="row">
+                  <i class="fas fa-user"></i>
+                  <div class="info">
+                    <div class="head">Name</div>
+                    <div class="sub-title">Najwa Jauhari</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="info">
+                    <div class="head">Address</div>
+                    <div class="sub-title">Pekanbaru, Indonesia</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fas fa-envelope"></i>
+                  <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">najwajauhari123@gmail.com</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column right" data-aos="flip-right">
+              <div class="text">
+                Message Me
+              </div>
+              <form action="#Contact">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+                  </div>
+                  <div class="field email">
+                    <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+                  </div>
+                </div>
+                <div class="field">
+                  <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+                </div>
+                <div class="field textarea">
+                  <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+                </div>
+                <div class="button">
+                  <button onclick='sendMail()' type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- footer section start -->
+        <footer>
+          <div class="text-center">
+            <span>
+              Created By <a href="#">Najwa Jauhari</a> | <span class="far fa-copyright"></span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+            </span>
+            <div>
+              <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/NajwaJauhari"><i class="fab fa-github"></i></a>
+              <a href="https://www.youtube.com/channel/UCHSOYUrLDFmRkbY8mHGGrqg"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </footer>
+        <script src="script.js"></script>
+        <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+      </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>AOS.init({easing :'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+    </body>
+</html>
